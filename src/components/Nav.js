@@ -3,7 +3,6 @@ import React, {Component} from 'react';
 class Nav extends Component {
 
   render() {
-    console.log("nav render", this.props.currentMenu);
     var data = this.props.data;
     var menuList = [];
     for(var i in data) {

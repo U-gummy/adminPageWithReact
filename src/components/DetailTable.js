@@ -1,9 +1,7 @@
 import React, {Component} from 'react';
 
 class DetailTable extends Component {
-
     render() {
-        console.log("DetailTable render");
         return ( 
             <div className="table-area">
                 <table className="tbl row-type">
@@ -44,6 +42,20 @@ class DetailTable extends Component {
                         </tr>
                     </tbody>
                 </table>
+                <div className="btn-area">
+                    <button type="button" className="btn btn-secondary"
+                        onClick={function(e){
+                            e.preventDefault();
+                            this.props.onChangePage("list");
+                        }.bind(this)}
+                    >목록</button>
+                    <button type="button" className="btn btn-primary"
+                        onClick={function(e){
+                            e.preventDefault();
+                            this.props.onChangePage("modify");
+                        }.bind(this)}
+                    >수정</button>
+                </div>
             </div>
         );
     }

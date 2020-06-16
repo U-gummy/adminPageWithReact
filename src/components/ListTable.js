@@ -3,10 +3,7 @@ import React, {Component} from 'react';
 class ListTable extends Component {
 
     render() {
-        console.log("ListTable render");
-
         var data = this.props.data;
-        
         var tbodyList = [];
         if(data.length) {
             for (var i in data) {
@@ -29,7 +26,6 @@ class ListTable extends Component {
                         <td>{data[i].push}</td>
                         <td>{data[i].open}</td>
                         <td>{data[i].date}</td>
-                        <td>{data[i].views}</td>
                     </tr>
                 );
             }
@@ -50,7 +46,6 @@ class ListTable extends Component {
                         <col></col>
                         <col></col>
                         <col></col>
-                        <col></col>
                     </colgroup>
                     <thead>
                         <tr>
@@ -60,7 +55,6 @@ class ListTable extends Component {
                             <th>PUSH여부</th>
                             <th>공개여부</th>
                             <th>등록일</th>
-                            <th>조회수</th>
                         </tr>
                     </thead>
                     <tbody>
