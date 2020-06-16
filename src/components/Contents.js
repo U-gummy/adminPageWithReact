@@ -10,17 +10,17 @@ class Contents extends Component {
     super(props);
     this.state = {
       mode: "list",
-      detail_data : {id:1, title:"Call Baeuty 오픈", type : "사용자", push : "발송", open: "공개", date: "2020.03.12", content:"공지사항 내용이 출력~~ ", name: "홍길동" },
+      detail_data : {id:0, title:"-", type : "-", push : "-", open: "-", date: "-", content:"-", name: "-" },
       data_max_id : 8,
       data_list: [
-        {id:1, title:"Call Baeuty 오픈", type : "사용자", push : "발송", open: "공개", date: "2020.03.12", content:"공지사항 내용이 출력~~ ", name: "홍길동" },
-        {id:2, title:"유그미 오픈", type : "전체", push : "미발송", open: "비공개", date: "2020.03.11", content:"공지사항 내용이 출력~~ ", name: "유그미"},
-        {id:3, title:"Call Baeuty 오픈", type : "SHOP", push : "발송", open: "비공개", date: "2020.03.12", content:"공지사항 내용이 출력~~ ", name: "홍길동" },
-        {id:4, title:"Call Baeuty 오픈", type : "SHOP", push : "발송", open: "비공개", date: "2020.03.12", content:"공지사항 내용이 출력~~ ", name: "홍길동" },
-        {id:5, title:"유그미 오픈", type : "사용자", push : "미발송", open: "공개", date: "2020.03.02", content:"공지사항 내용이 출력~~ ", name: "유그미"},
-        {id:6, title:"Call Baeuty 오픈", type : "SHOP", push : "발송", open: "비공개", date: "2020.03.04", content:"공지사항 내용이 출력~~ ", name: "유그미" },
-        {id:7, title:"Call Baeuty 오픈", type : "SHOP", push : "발송", open: "공개", date: "2020.03.10", content:"공지사항 내용이 출력~~ ", name: "유그미" },
-        {id:8, title:"Call Baeuty 오픈", type : "SHOP", push : "발송", open: "비공개", date: "2020.03.12", content:"공지사항 내용이 출력~~ ", name: "유그미" },
+        {id:1, title:"Call Baeuty 오픈", type : "사용자", push : "발송", open: "공개", date: "2020.00.00", content:"공지사항 내용이 출력~~ ", name: "홍길동" },
+        {id:2, title:"유그미 오픈", type : "전체", push : "미발송", open: "비공개", date: "2020.00.00", content:"공지사항 내용이 출력~~ ", name: "유그미"},
+        {id:3, title:"Call Baeuty 오픈", type : "SHOP", push : "발송", open: "비공개", date: "2020.00.00", content:"공지사항 내용이 출력~~ ", name: "홍길동" },
+        {id:4, title:"Call Baeuty 오픈", type : "SHOP", push : "발송", open: "비공개", date: "2020.00.00", content:"공지사항 내용이 출력~~ ", name: "홍길동" },
+        {id:5, title:"유그미 오픈", type : "사용자", push : "미발송", open: "공개", date: "2020.00.00", content:"공지사항 내용이 출력~~ ", name: "유그미"},
+        {id:6, title:"Call Baeuty 오픈", type : "SHOP", push : "발송", open: "비공개", date: "2020.00.00", content:"공지사항 내용이 출력~~ ", name: "유그미" },
+        {id:7, title:"Call Baeuty 오픈", type : "SHOP", push : "발송", open: "공개", date: "2020.00.00", content:"공지사항 내용이 출력~~ ", name: "유그미" },
+        {id:8, title:"Call Baeuty 오픈", type : "SHOP", push : "발송", open: "비공개", date: "2020.00.00", content:"공지사항 내용이 출력~~ ", name: "유그미" },
       ]
     }
   }

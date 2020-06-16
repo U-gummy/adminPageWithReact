@@ -13,7 +13,7 @@ class RegisterTable extends Component {
                             type : e.target.type.value,
                             open : e.target.open.value,
                             push : e.target.push.value,
-                            date : "",
+                            date : "2020.00.00",
                             views : 0,
                             content : e.target.content.value
                         }

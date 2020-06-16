@@ -10,6 +10,7 @@ class App extends Component {
   constructor (props) {
     super(props);
     this.state = {
+      name: "유그미",
       title : "콜뷰티",
       current_menu : {id:11, sub_title:"공지사항관리"},
       content_list: [
@@ -60,7 +61,7 @@ class App extends Component {
   render() {
     return ( 
       <div className="App">
-        <Header></Header>
+        <Header name={this.state.name}></Header>
         <Nav 
           data={this.state.content_list}
           currentMenu = {this.state.current_menu}

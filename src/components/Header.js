@@ -14,7 +14,7 @@ class Header extends Component {
             <h2>관/리/시/스/템</h2>
         </div>
         <div className="fr">
-            <span className="name"><strong>임시완</strong>님</span>
+        <span className="name"><strong>{this.props.name}</strong>님</span>
             <button type="button" className="btn-logout">로그아웃</button>
         </div>
     </header>
